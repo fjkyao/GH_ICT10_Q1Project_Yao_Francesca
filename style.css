@@ -1,0 +1,104 @@
+body {
+    background-color: antiquewhite;
+    color: darkred;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    background-color: sienna;
+    display: flex;
+}
+
+ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#navbar{
+    background-color: antiquewhite;
+}
+
+#header {
+    text-align: center;
+    color: darkred;
+    background-color: burlywood;
+    border-style: double;
+    padding-bottom: 25px;
+    margin: 15px;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    color: darkred;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+p {
+    color: grey;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+#order {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 3px solid burlywood;
+}
+
+#morder,
+#form {
+    background-color: white;
+    padding: 15px;
+    width: 300px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;  
+    display: inline-block;
+    border: 1px solid darkred;
+    border-radius: 4px;
+    width: 85%;
+}
+
+#summary {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 3px solid burlywood;
+}

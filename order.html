@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="style.css"/>
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"s></script>
+    <title>Project</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div class="navbar" id="navbar">
+      <ul>
+        <li><a class="active" href="home.html">Home</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    
+    <!-- ORDER -->
+    <div class="container-fluid" id="order">
+    <!--  MENU ORDERING -->
+      <div class="container-fluid" id="morder">
+        <h3>Menu:</h3>
+        <form>
+          <div class="menu-item">
+            <input type="checkbox" id="item1" name="sb" value="item1">
+            <label for="item1">Strawberry Bunny</label>
+          </div>
+          <br/>
+          <div class="menu-item">
+            <input type="checkbox" id="item2" name="lb" value="item2">
+            <label for="item2">Lemon Duck</label>
+          </div>
+          <br/>
+          <div class="menu-item">
+            <input type="checkbox" id="item3" name="bs" value="item3">
+            <label for="item3">Blueberry Seal</label>
+          </div>
+          <br/>
+          <div class="menu-item">
+            <input type="checkbox" id="item4" name="pp" value="item4">
+            <label for="item4">Pistachio Parakeet</label>
+          </div>
+          <br/>
+          <div class="menu-item">
+            <input type="checkbox" id="item5" name="cpd" value="item5">
+            <label for="item5">Cookies' n Panda Dream</label>
+          </div>
+          <br/>
+          <div class="menu-item">
+            <input type="checkbox" id="item6" name="cb" value="item6">
+            <label for="item6">Choco Bear</label>
+          </div>
+        </form>
+        </div>
+    <!-- CUSTOMER DETAILS -->
+      <div class="container-fluid" id="form">
+        <form>
+          <h3>Customer Details:</h3>
+          <label for="cname">Customer Name:</label>
+          <input class="form-control" type="text" id="cname" placeholder="enter your name here"/>
+          <label for="address">Address:</label>
+          <input class="form-control" type="text" id="address" placeholder="enter your address here"/>
+          <label for="cname">Contact Number:</label>
+          <input class="form-control" type="text" id="Contact Number:" placeholder="enter your number here"/>
+          <br/>
+          <input type="button" value="Place Order"/>
+        </form>
+      </div>
+    </div>
+    
+
+    <div class="container-fluid" id="summary">
+      <h3>Order Summary:</h3>
+    </div>
+  </body>
+</html>
