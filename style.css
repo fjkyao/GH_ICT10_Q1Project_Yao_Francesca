@@ -78,7 +78,7 @@ img {
 #form {
     background-color: white;
     padding: 15px;
-    width: 300px;
+    width: 45%;
 }
 
 .menu-item {
@@ -86,13 +86,43 @@ img {
     align-items: center;
 }
 
+.menu-item img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
 input {
-    padding: 10px;
-    margin: 5px;  
-    display: inline-block;
+    margin: 5px;
     border: 1px solid darkred;
     border-radius: 4px;
+}
+
+
+input[type="text"],
+input[type="button"] {
+    padding: 10px;
+    display: block;
     width: 85%;
+}
+
+input[type="button"] {
+    background-color: sienna;
+    color: antiquewhite;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: burlywood;
+    color: darkred;
+    border-radius: 10px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
 }
 
 #summary {
