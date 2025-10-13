@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="style.css"/>
-    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"s></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
     <title>Project</title>
   </head>
   <body>
     <!-- NAVIGATION BAR -->
     <div class="navbar" id="navbar">
       <ul>
-        <li><a class="active" href="home.html">Home</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
         <li><a href="order.html">Order</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -73,17 +73,17 @@
           <input class="form-control" type="text" id="cname" placeholder="enter your name here"/>
           <label for="address">Address:</label>
           <input class="form-control" type="text" id="address" placeholder="enter your address here"/>
-          <label for="cname">Contact Number:</label>
-          <input class="form-control" type="text" id="Contact Number:" placeholder="enter your number here"/>
+          <label for="cnumber">Contact Number:</label>
+          <input class="form-control" type="text" id="cnumber" placeholder="enter your number here"/>
           <br/>
-          <input type="button" value="Place Order"/>
+          <input type="button" value="Place Order" py-click="place_order"/>
         </form>
       </div>
     </div>
     
-
     <div class="container-fluid" id="summary">
       <h3>Order Summary:</h3>
     </div>
+     <py-script src="main.py"></py-script>
   </body>
 </html>
