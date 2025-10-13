@@ -4,20 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css"/>
-    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"s></script>
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
     <title>Project</title>
   </head>
   <body>
     <!-- NAVIGATION BAR -->
     <div class="navbar" id="navbar">
       <ul>
-        <li><a class="active" href="home.html">Home</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
         <li><a class="active" href="order.html">Order</a></li>
         <li><a class="active" href="contact.html">Contact</a></li>
       </ul>
     </div>
 
-    <div class="container">
+    <!-- HEADER -->
+    <div class="container" id="header">
+      <h1>Baker Bear Bakery</h1>
+      <h8>serving you since 2009</h8>
+    </div>
+
+    <!-- MENU ITEMS -->
+    <div class="container" id="display-items">
       <div class="image-row">
         <img src="Strawberry Bunny.jpg"/>
         <img src="Lemon Duck.jpg"/>
@@ -25,8 +32,10 @@
         <img src="Pistachio Parakeet.jpg"/>
         <img src="Cookies' n Panda Dream.jpg"/>
         <img src="Choco Bear.jpg"/>
+      </div>
     </div>
-    <div id="div4"></div>
+
+    <div id="menu_list"></div>
     <py-script src="main.py"></py-script>
   </body>
 </html>
